@@ -1,0 +1,93 @@
+{
+  "desayuno": [
+    {
+      "id": "d1",
+      "name": "Café americano",
+      "price": 1000,
+      "description": "café espresso en agua caliente.",
+      "image": "images/cafe-americano.jpg"
+    },
+    {
+      "id": "d2",
+      "name": "Café con Leche",
+      "price": 1000,
+      "description": "café con leche combina a partes iguales café expreso",
+      "image": "images/cafe-conleche.jpg"
+    },
+    {
+      "id": "d3",
+      "name": "Sandwich jamón y queso",
+      "price": 5000,
+      "description": "Queso, jamón,  tomate, lechuga, mayonesa y mostaza",
+      "image": "images/sanduche-de-jamon-y-queso.jpg"
+    },
+    {
+      "id": "d4",
+      "name": "Jugo Natural a elección",
+      "price": 2000,
+      "description": "Jugo de naranja, frutilla, mango, piña.",
+      "image": "images/jugo-natural.jpg"
+    }
+  ],
+
+  "almuerzo": [
+    {
+      "id": "a1",
+      "name": "Hamburguesa simple",
+      "price": 10000,
+      "description": "Hamburguesa de res, pollo o vegetariana",
+      "image": "images/hamburguesasimple.png"
+    },
+    {
+      "id": "a2",
+      "name": "Hamburguesa doble",
+      "price": 15000,
+      "description": "Hamburguesa de res, pollo o vegetariana",
+      "image": "hamburguesa-doble.jpg"
+    },
+    {	
+      "id": "a3",
+      "name": "Papas fritas",
+      "price": 5000,
+      "description": "Papas fritas, acompañadas de salsa de tomate y mayonesa",
+      "image": "images/patatas-fritas.jpg"
+    },
+    {
+      "id": "a4",
+      "name": "Aritos de cebolla",
+      "price": 5000,
+      "description": "acompañadas con salsa de tomate,  salsa de queso o mayonesa",
+      "image": "images/onion-rings.jpg"
+    }
+  ], 
+  "drinks": [
+    {
+      "id": "b1",
+      "name": "Agua",
+      "price": 1000,
+      "description": "Agua mineral 500ml",
+      "image": "images/agua500.jpg"
+    },
+    {
+      "id": "b2",
+      "name": "Agua",
+      "price": 2000,
+      "description": "Agua mineral 750ml",
+      "image": "agua750.jpg"
+    },
+    {	
+      "id": "b3",
+      "name": "Gaseosa",
+      "price": 3000,
+      "description": "Gaseosa  500ml",
+      "image": "images/gaseosas1.jpg"
+    },
+    {
+      "id": "b4",
+      "name": "Gaseosa",
+      "price": 4000,
+      "description": "Gaseosa  1litro",
+      "image": "images/gaseosas2.jpg"
+    }
+  ]
+}

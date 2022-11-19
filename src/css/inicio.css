@@ -1,0 +1,94 @@
+/*.App {
+    text-align: center;
+  }
+  
+  .img-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .body {
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-image: url(./img/fondo1.png);
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .img-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #cd671f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  */
+
+  .img-logo {
+    width: 32rem;
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .button-inicio {
+    font-size: 2.5rem;
+  
+    margin-top: 5rem;
+    background-color: var(--colorYellow);
+    width: 20rem;
+    height: 10rem;
+    cursor: pointer;
+    text-align: center;
+    line-height: 10rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+  }
+  .button-inicio:focus {
+    transform: scale(0.98);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+  }
+  
+  .button-inicio:hover {
+    color: black;
+  }
+  

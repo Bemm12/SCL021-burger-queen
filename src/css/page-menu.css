@@ -1,0 +1,13 @@
+.pageMenu {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  min-height: 100vh;
+}
+.pageMenu__resumenText {
+  font-size: 3.5rem;
+  color: white;
+}
+/* .container-tabmenu, */
+.pageMenu__menuOrder {
+  padding-left: 5rem;
+}
