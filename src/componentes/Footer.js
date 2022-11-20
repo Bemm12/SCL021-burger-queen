@@ -3,7 +3,7 @@ import "../css/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer d-flex justify-content-center align-items-center">
+    <footer className="footer">
       Copyright &copy; 2022
       <a className="footer__link" href="https://github.com/Bemm12">
         Beatriz Maldonado

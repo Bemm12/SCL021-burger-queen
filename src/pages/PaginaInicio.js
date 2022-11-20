@@ -16,9 +16,9 @@ const PaginaInicio = () => {
             alt="Imagen hamburguesa Logo"
             />
              </div>
-        <div className="d-flex justify-content-evenly ">
+        <div className="buttonCover ">
           <Link className="button-inicio" to="/Menu">
-            Meserx
+            Mesero
           </Link>
           <Link className="button-inicio" to="/Cocina">
             Chef

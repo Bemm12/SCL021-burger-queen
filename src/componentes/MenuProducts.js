@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import DesayunoProduct from "./DesayunoProduct";
-import AlmuerzoProduct from "./AlmuerzoProduct";
+import BreakfastProduct from "./BreakfastProduct";
+import LunchProduct from "./LunchProduct";
 import DrinksProduct from "./DrinksProduct";
 import FormNameandTable from "./FormNameandTable";
 /* Estilos css */
@@ -16,6 +16,10 @@ const MenuProducts = () => {
   };
   return (
     <>
+    <div>     
+     {/* Componente form */}
+     <FormNameandTable />
+    </div>
       <article className="d-flex justify-content-center">
         <button
           className={
@@ -48,16 +52,15 @@ const MenuProducts = () => {
           Bebida
         </button>
       </article>
-      {/* Componente form */}
-      <FormNameandTable />
+     
 
       <div className={tabState === 1 ? "content  active-content" : "content"}>
         {/* Convertir a archivo .json para mostrarlo */}
-        <DesayunoProduct />
+        <BreakfastProduct />
       </div>
 
       <div className={tabState === 2 ? "content  active-content" : "content"}>
-        <AlmuerzoProduct />
+        <LunchProduct />
       </div>
       <div className={tabState === 3 ? "content  active-content" : "content"}>
         <DrinksProduct />

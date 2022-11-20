@@ -1,8 +1,13 @@
 .navbar__container {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(18, 17, 17, 0.883);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  /*   background-color: rgba(19, 21, 23, 0.9); */
-}
+  width: 100px;
+  height: 100px;
+ }
+ .img-logo2{
+  width: 100px;
+  height: 80px;
+ }
 
 .nav__icons {
   font-size: 5rem;

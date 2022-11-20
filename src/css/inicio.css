@@ -1,23 +1,7 @@
-/*.App {
+.App {
     text-align: center;
-  }
-  
-  .img-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  .body {
-    background-size: cover;
-    background-attachment: fixed;
-    /*background-image: url(./img/fondo1.png);
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .img-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
+  }  
+ 
   .App-header {
     background-color: #cd671f;
     min-height: 100vh;
@@ -26,69 +10,48 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
-  
+    color: white;  
   }
   
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  */
+  .buttonCover {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 0%;
+  }  
 
   .img-logo {
+    margin-top: 18%;
     width: 32rem;
     border-radius: 50%;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+     
   }
-  
-  .button-inicio {
-    font-size: 2.5rem;
-  
-    margin-top: 5rem;
-    background-color: var(--colorYellow);
-    width: 20rem;
-    height: 10rem;
-    cursor: pointer;
-    text-align: center;
-    line-height: 10rem;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
-    transition: 0.2s all;
-    -webkit-transition: 0.2s all;
-    -moz-transition: 0.2s all;
-    -ms-transition: 0.2s all;
-    -o-transition: 0.2s all;
+  .button-inicio{
+  box-shadow: 3px 4px 0px 0px #d62f2f;
+  background-color: #F5B22C;
+  border-radius: 18px;
+  border: 1px solid #d62f2f;
+  display: inline-block;
+  cursor: pointer;
+  color: #faf5f5;
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #0c0c0c;
   }
-  .button-inicio:focus {
-    transform: scale(0.98);
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
-    -webkit-transform: scale(0.98);
-    -moz-transform: scale(0.98);
-    -ms-transform: scale(0.98);
-    -o-transform: scale(0.98);
+  .button-inicio:active {
+    position: relative;
+    top: 5px;
+    color: rgb(250, 250, 250);
+    background: #faf5f5;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 25px;
   }
-  
   .button-inicio:hover {
-    color: black;
+    background-color: #d62f2f;
+    color: #faf5f5;
   }
+
+  
   

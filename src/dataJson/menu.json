@@ -1,5 +1,5 @@
 {
-  "desayuno": [
+  "breakfast": [
     {
       "id": "d1",
       "name": "Café americano",
@@ -30,7 +30,7 @@
     }
   ],
 
-  "almuerzo": [
+  "lunch": [
     {
       "id": "a1",
       "name": "Hamburguesa simple",
@@ -43,7 +43,7 @@
       "name": "Hamburguesa doble",
       "price": 15000,
       "description": "Hamburguesa de res, pollo o vegetariana",
-      "image": "hamburguesa-doble.jpg"
+      "image": "images/hamburguesa-doble.jpg"
     },
     {	
       "id": "a3",
@@ -73,7 +73,7 @@
       "name": "Agua",
       "price": 2000,
       "description": "Agua mineral 750ml",
-      "image": "agua750.jpg"
+      "image": "images/agua500.jpg"
     },
     {	
       "id": "b3",

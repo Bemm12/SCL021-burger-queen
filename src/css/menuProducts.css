@@ -1,8 +1,9 @@
    .tabs-productos {
     font-size: 2.5rem;
-    margin: auto;
-    background-color: whitesmoke;
-    border: 3px solid var(--colorYellow);
+    margin: 15px;
+    background-color: #F5B22C;
+    color: #faf5f5;
+    border: 3px solid var(--colorYellow); 
     width: 15rem;
     height: 6rem;
     cursor: pointer;
@@ -17,14 +18,17 @@
     transition: 0.2s all;
   }
   .tabs-productos:active{
-    background-color: var(--colorYellow);
-    transform: scale(0.98);
+    /* background-color: var(--colorYellow); */
+    background-color:#FC636B ;
+    color: #faf5f5;
+    /* transform: scale(0.98);
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308); */
   }
   
   .active-tabs-productos  {
-    background-color: var(--colorYellow);
+    background-color: #d62f2f;
+    color: #faf5f5;
   }
   .content {
     display: none;

@@ -6,10 +6,10 @@ import menu from "../dataJson/menu.json";
 import "../css/productsFood.css";
 
 /* ({}) = desestructuración seria igual que poner props.nombre */
-function AlmuerzoProduct() {
-  const { productFood, setProductFood } = useContext(Context);
 
-  const menuAlmuerzo = menu.almuerzo;
+function BreakfastProduct() {
+  const { productFood, setProductFood } = useContext(Context);
+  const menuBreakfast = menu.breakfast;
 
   const addProductFood = (product) => {
     const productsExist = productFood.find((item) => item.id === product.id);
@@ -25,32 +25,31 @@ function AlmuerzoProduct() {
       setProductFood([...productFood, { ...product, count: 1 }]);
     }
   };
-
   return (
     <>
-      {menuAlmuerzo.map((almuerzo) => {
+      {menuBreakfast.map((breakfast) => {
         return (
           <button
             className="row mt-5 productFood__container p-4"
-            key={almuerzo.id}
-            onClick={() => addProductFood(almuerzo)}
+            key={breakfast.id}
+            onClick={() => addProductFood(breakfast)}
           >
             <div className="col-12">
               <div className="row">
                 <div className="col-3">
                   <img
                     className="img-fluid"
-                    src={almuerzo.image}
-                    alt={`Imagen ${almuerzo.name}`}
-                  />{" "}
+                    src={breakfast.image}
+                    alt={`Imagen ${breakfast.name}`}
+                  />
                 </div>
                 <div className="col-7">
-                  <h3>{almuerzo.name}</h3>
-                  <p>{almuerzo.description}.</p>
+                  <h3>{breakfast.name}</h3>
+                  <p>{breakfast.description}.</p>
                 </div>
                 <div className="col-2">
                   <p className="fw-bold">
-                    ${almuerzo.price.toLocaleString("es-CL")}
+                    ${breakfast.price.toLocaleString("es-CL")}
                   </p>
                 </div>
               </div>
@@ -62,4 +61,4 @@ function AlmuerzoProduct() {
   );
 }
 
-export default AlmuerzoProduct;
+export default BreakfastProduct;

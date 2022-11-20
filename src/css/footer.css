@@ -1,7 +1,9 @@
 .footer {
-    height: 15rem;
-    font-size: 2rem;
-    color: whitesmoke;
+  display: flex;
+  justify-content: center;
+
+  font-size: 1rem;
+  color: whitesmoke;   
   }
   .footer__link {
     color: white;
