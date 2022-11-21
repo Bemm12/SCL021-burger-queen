@@ -20,7 +20,7 @@ const PaginaMenu = () => {
           </article>
           {/* Pedido total */}
           <article className="col-12 col-md-6 d-flex flex-column pageMenu__menuOrder">
-            <h2 className="text-center pageMenu__resumenText">Resumen del pedido</h2>
+            <h2 className="text-center pageMenu__resumenText">Detalle del pedido</h2>
             {/* Menu con el resumen de productos */}
           </article>
         </section>
