@@ -18,10 +18,10 @@ const PaginaInicio = () => {
              </div>
         <div className="buttonCover ">
           <Link className="button-inicio" to="/Menu">
-            Mesero
+            Pedido
           </Link>
           <Link className="button-inicio" to="/Cocina">
-            Chef
+            Cocina
           </Link>
         </div>
       </main>

@@ -1,0 +1,50 @@
+.menuOrder__container {
+  background-color: #f7e7b6;
+  width: 100%;
+  min-height: auto;
+  border-radius: 15px;
+  color: black;
+}
+
+.menuOrder__formClient {
+  padding-left: 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+}
+.img-delete{
+  width: 80px;
+  height: 60px;
+ }
+
+.orderPlaced__btnCount {
+  font-size: 5rem;
+  color: #f1ca0d;
+  transition: 0.2s all;
+  margin-bottom: 2rem;
+}
+
+.orderPlaced__btnCount:active {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+.orderPlaced__width {
+  width: auto;
+ }
+
+.orderPlaced__paragraph {
+  padding: 0 1rem;
+}
+
+.menuOrder__total {
+  font-weight: bold;
+}
+
+.orderPlaced__nameProducts {
+  width: 15rem;
+}
+

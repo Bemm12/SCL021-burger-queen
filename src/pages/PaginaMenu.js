@@ -1,6 +1,6 @@
 import React from "react";
 import MenuProducts from '../componentes/MenuProducts';
-/* import MenuOrder from '../componentes/MenuOrder'; */
+ import MenuOrder from '../componentes/MenuOrder'; 
 import NavBar from '../componentes/NavBar'; 
 import Footer from '../componentes/Footer';
 
@@ -22,6 +22,7 @@ const PaginaMenu = () => {
           <article className="col-12 col-md-6 d-flex flex-column pageMenu__menuOrder">
             <h2 className="text-center pageMenu__resumenText">Detalle del pedido</h2>
             {/* Menu con el resumen de productos */}
+            <MenuOrder />
           </article>
         </section>
       </main>

@@ -1,6 +1,6 @@
-* {
+/* {
   outline: 1px solid limegreen !important;
-} 
+} /*
 
 .App {
   text-align: center;
@@ -19,16 +19,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-body {
+/* body {
   background-image: url("../public/images/fondo.jpg");
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
 
-.App-header {
-  background-color: #282c34;
-  background-image: url("../public/images/fondogrande.jpg");
+ .App-header {
+  background-color: #272626; 
+   /* background-image: url("../public/images/fondogrande.jpg");  */ 
+  background-image: url("./img/fondogrande.jpg"); 
   background-size: cover;
   background-attachment: fixed; 
   
@@ -39,7 +40,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} 
 
 .App-link {
   color: #61dafb;

@@ -6,13 +6,7 @@ import "../css/navbar.css";
 const NavBar = () => {
   return (
     <>
-      {/* <nav className="navbar navbar__container">
-        <div className="d-flex justify-content-end navbar__link-end">
-          <Link to="/">
-            <i className="fa-solid fa-arrow-left nav__icons "></i>
-          </Link>
-        </div>
-      </nav> */
+      {
       
       <nav className="navbar navbar__container">
          

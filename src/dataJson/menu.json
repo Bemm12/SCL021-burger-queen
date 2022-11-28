@@ -4,14 +4,14 @@
       "id": "d1",
       "name": "Café americano",
       "price": 1000,
-      "description": "café espresso en agua caliente.",
+      "description": "Café espresso en agua caliente.",
       "image": "images/cafe-americano.jpg"
     },
     {
       "id": "d2",
       "name": "Café con Leche",
       "price": 1000,
-      "description": "café con leche combina a partes iguales café expreso",
+      "description": "Café con leche combina a partes iguales café expreso",
       "image": "images/cafe-conleche.jpg"
     },
     {
@@ -56,7 +56,7 @@
       "id": "a4",
       "name": "Aritos de cebolla",
       "price": 5000,
-      "description": "acompañadas con salsa de tomate,  salsa de queso o mayonesa",
+      "description": "Acompañadas con salsa de tomate,  salsa de queso o mayonesa",
       "image": "images/onion-rings.jpg"
     }
   ], 

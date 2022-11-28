@@ -1,9 +1,12 @@
-.App {
+/* .App {
     text-align: center;
   }  
  
-  .App-header {
-    background-color: #cd671f;
+ .App-header {
+     background-color: #cd671f; 
+   background-image: url("../public/images/fondogrande.jpg");  
+  background-size: cover;
+  background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +14,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;  
-  }
+  }  */
   
   .buttonCover {
     display: flex;

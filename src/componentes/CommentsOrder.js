@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
-import { Context } from "../../context/UseContext";
+import { Context } from "../context/UseContext";
 /* Estilos css */
-import "../../css/commentsOrder.css";
+import "../css/commentsOrder.css";
 
 const CommentsOrder = () => {
   const { comment, setComment } = useContext(Context);
 
   return (
     <div className="commentsOrder--position">
-      <p className="commentsOrder__text">Anotaciones:</p>
+      <p className="commentsOrder__text">Observaciones:</p>
       <textarea
         className="container commentsOrder__comment mt-5 mb-5 "
         value={comment}
